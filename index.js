@@ -1,4 +1,4 @@
-const words = require('all-the-german-words').lowercase
+const words = require('all-the-german-words-ascii')
 const packages = require('all-the-package-names')
 const difference = require('lodash.difference')
 
