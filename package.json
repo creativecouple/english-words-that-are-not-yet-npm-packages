@@ -1,15 +1,31 @@
 {
-  "name": "english-words-that-are-not-yet-npm-packages",
-  "version": "1.0.2",
+  "name": "german-words-that-are-not-yet-npm-packages",
+  "version": "1.0.0",
   "description": "A CLI for finding available package names in the npm registry",
   "main": "index.js",
   "bin": "cli.js",
-  "repository": "https://github.com/zeke/english-words-that-are-not-yet-npm-packages",
-  "author": "zeke",
+  "repository": "https://github.com/creativecouple/german-words-that-are-not-yet-npm-packages",
+  "author": "CreativeCouple, zeke",
   "license": "MIT",
+  "scripts": {
+    "test": "mocha && standard"
+  },
   "dependencies": {
     "all-the-package-names": "^1.3140.0",
-    "an-array-of-english-words": "^1.2.0",
+    "all-the-german-words": "^1.0.2",
     "lodash.difference": "^4.5.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "standard": "^8.6.0"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "standard": {
+    "env": {
+      "mocha": true
+    }
   }
 }
